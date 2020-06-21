@@ -1,0 +1,6 @@
+<div class="flex-container">
+  <%= simple_form_for(@poster) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :photo, as: :file %>
+  <% end %>
+</div>

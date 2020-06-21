@@ -24,3 +24,7 @@ test:
 production:
   <<: *default
   database: alavastron_production
+
+
+cloudinary:
+  service: Cloudinary

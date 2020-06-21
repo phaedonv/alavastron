@@ -35,6 +35,9 @@ gem 'jbuilder', '~> 2.7'
 # Gemfile for security
 gem 'dotenv-rails', groups: [:development, :test]
 
+# Gemfile for image upload!
+gem 'cloudinary', '~> 1.12.0'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 

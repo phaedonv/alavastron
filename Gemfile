@@ -38,6 +38,9 @@ gem 'dotenv-rails', groups: [:development, :test]
 # Gemfile for image upload!
 gem 'cloudinary', '~> 1.12.0'
 
+#Gemfile devise; authentication gemfile for Rails
+gem 'devise'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 

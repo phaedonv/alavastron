@@ -14,3 +14,7 @@
     "webpack-dev-server": "^3.11.0"
   }
 }
+
+"scripts": {
+    "start": "node server.js"
+}
